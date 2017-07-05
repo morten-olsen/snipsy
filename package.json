@@ -1,0 +1,43 @@
+{
+  "name": "snipsy",
+  "version": "0.2.1",
+  "main": "dist/main.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.1",
+    "@types/mocha": "^2.2.41",
+    "@types/sinon": "^2.3.2",
+    "babel-core": "^6.25.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2",
+    "nodemon": "^1.11.0",
+    "sinon": "^2.3.6",
+    "ts-node": "^3.1.0",
+    "typescript": "^2.4.1"
+  },
+  "dependencies": {
+    "@types/express": "^4.0.36",
+    "@types/handlebars": "^4.0.33",
+    "@types/mkdirp": "^0.3.29",
+    "@types/node": "^8.0.7",
+    "@types/readline-sync": "^1.4.2",
+    "@types/rimraf": "^0.0.28",
+    "@types/yargs": "^8.0.0",
+    "express": "^4.15.3",
+    "handlebars": "^4.0.10",
+    "mkdirp": "^0.5.1",
+    "readline-sync": "^1.4.7",
+    "rimraf": "^2.6.1",
+    "yargs": "^8.0.2"
+  },
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**.spec.ts",
+    "bin": "ts-node ./src/bin.ts",
+    "demo": "nodemon"
+  }
+}

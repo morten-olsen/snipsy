@@ -1,0 +1,16 @@
+{
+	"snippets": {
+		"hello": {
+			"settings": {
+				"hello": "something"
+			},
+			"url": ""
+		},
+		"gtm": {
+			"settings": {
+				"gtmId": "GTM-3CCB"
+			},
+			"url": ""
+		}
+	}
+}
